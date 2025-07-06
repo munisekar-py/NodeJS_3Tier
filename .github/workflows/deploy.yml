@@ -23,6 +23,6 @@ jobs:
 
       - name: Build and Run doocker Compose
         run: |
-          docker-compose -f docker-compose.yml up -d --buil
+          docker-compose -f docker-compose.yml up -d --build
 
         
